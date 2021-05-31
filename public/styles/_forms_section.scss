@@ -1,0 +1,66 @@
+.forms-section{
+    padding: 20px 0px;
+    width: 50%;
+    
+    form{
+       margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px rgba(177, 5, 180,0.3);
+        padding: 30px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object{
+            width: 49px;
+            height: 37px;
+        }
+        h2{
+            margin-bottom: 20px;
+            font-size: larger;
+            .text-purple{
+                color: $brand-purple;
+            }
+        }
+        input{
+            width: 100%;
+            color: $input-gray;
+            padding: 10px 20px;
+            outline: none;
+            border: $input-gray solid 1px;
+            font-size: small;
+            transition: border 0.3s ease, color 0.3s ease;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            &:focus{
+                border: $brand-purple 1px solid;
+                transition: border 0.3s ease, color 0.3s ease;
+                color: $brand-purple;
+            }
+            &::placeholder{
+                color: $input-gray;
+            }
+            &:not(:placeholder-shown){
+                color: $brand-purple;
+                border: $brand-purple 1px solid;
+            }
+        }
+        button{
+            padding: 15px 20px;
+            width: 100%;
+            border-radius: 20px;
+            background-color: $brand-purple;
+            color: white;
+            border: none;
+            font-size: small;
+            transition: letter-spacing 0.3s ease;
+            &:hover{
+                letter-spacing: 2px;
+                transition: letter-spacing 0.3s ease;
+            }
+        }
+
+        
+    }
+}

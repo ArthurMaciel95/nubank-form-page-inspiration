@@ -1,0 +1,73 @@
+
+@mixin btn-outline {
+    font-size:small;
+    padding: 10px 20px;
+     border-radius: 20px;
+    border: $brand-purple solid 1px;
+    color: $brand-purple;
+    transition:background-color 0.3s ease, color 0.3s ease;
+
+    &:hover{
+        background-color: $brand-purple;
+        color: white;
+
+         transition: background-color 0.3s ease, color 0.3s ease;
+    }
+        
+}
+
+header{
+    nav{
+        padding: 20px 0px;
+        font-family: $font-family;
+        margin: 0 auto;
+        width: 80vw;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            img{
+
+            }
+        }
+        .menu{
+            display: flex;
+            
+            li{
+                display: flex;
+                align-items: center;
+               cursor: pointer;
+                font-size:small;
+                list-style-type: none;
+                padding: 10px;
+                a{
+                    text-decoration: none;
+                    color: $title-gray;
+                    margin-right: 10px;
+
+                    &.active{
+                        color: $brand-purple;
+                        font-weight: 700;
+                    }
+                    
+                }
+                img{
+                    width: 10px;
+                    height: 10px;
+                    color: $brand-purple;
+                }
+
+            }
+        }
+        .btn-area{
+            li{
+                .btn-outline{
+                    @include btn-outline;
+                }
+            }
+        }
+
+    }
+}

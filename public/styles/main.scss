@@ -1,0 +1,53 @@
+@import '_variables.scss';
+@import '_navbar.scss';
+@import '_context_section.scss';
+@import '_forms_section.scss';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+html,body{
+    background: $background-gradient;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    position: relative;
+    font-family: $font-family;
+    display: flex;
+    height: 80vh;
+    margin: 0 auto;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+
+    .icon-drop-down{
+        width: 1rem;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        animation: bounce-arrow 0.7s ease-in 0s infinite alternate;
+        
+     
+    }
+}
+
+@keyframes bounce-arrow{
+ from{
+     bottom: 0px;
+ }
+ to{
+     bottom: 10px;
+ }
+}
+
+

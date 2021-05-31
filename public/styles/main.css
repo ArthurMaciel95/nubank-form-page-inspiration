@@ -1,0 +1,289 @@
+header nav {
+  padding: 20px 0px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  width: 80vw;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: small;
+  list-style-type: none;
+  padding: 10px;
+}
+
+header nav .menu li a {
+  text-decoration: none;
+  color: #444444;
+  margin-right: 10px;
+}
+
+header nav .menu li a.active {
+  color: #b105b4;
+  font-weight: 700;
+}
+
+header nav .menu li img {
+  width: 10px;
+  height: 10px;
+  color: #b105b4;
+}
+
+header nav .btn-area li .btn-outline {
+  font-size: small;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: #b105b4 solid 1px;
+  color: #b105b4;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav .btn-area li .btn-outline:hover {
+  background-color: #b105b4;
+  color: white;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.context-introdution {
+  padding: 20px 0px;
+  width: 40%;
+}
+
+.context-introdution h2 {
+  font-size: xx-large;
+  color: #444444;
+}
+
+.context-introdution h2 .letters-purple {
+  color: #b105b4;
+}
+
+.context-introdution p {
+  font-size: small;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+.context-introdution .btn-outline {
+  position: relative;
+  font-size: small;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: #b105b4 solid 1px;
+  color: #b105b4;
+}
+
+.context-introdution .btn-outline:hover object {
+  position: relative;
+  -webkit-animation: arrow 0.3s ease 0s infinite alternate;
+          animation: arrow 0.3s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 10px;
+  }
+}
+
+@keyframes arrow {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 10px;
+  }
+}
+
+.forms-section {
+  padding: 20px 0px;
+  width: 50%;
+}
+
+.forms-section form {
+  margin: 0 auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 30px rgba(177, 5, 180, 0.3);
+          box-shadow: 0px 0px 30px rgba(177, 5, 180, 0.3);
+  padding: 30px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forms-section form object {
+  width: 49px;
+  height: 37px;
+}
+
+.forms-section form h2 {
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+.forms-section form h2 .text-purple {
+  color: #b105b4;
+}
+
+.forms-section form input {
+  width: 100%;
+  color: #d9d9d9;
+  padding: 10px 20px;
+  outline: none;
+  border: #d9d9d9 solid 1px;
+  font-size: small;
+  -webkit-transition: border 0.3s ease, color 0.3s ease;
+  transition: border 0.3s ease, color 0.3s ease;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.forms-section form input:focus {
+  border: #b105b4 1px solid;
+  -webkit-transition: border 0.3s ease, color 0.3s ease;
+  transition: border 0.3s ease, color 0.3s ease;
+  color: #b105b4;
+}
+
+.forms-section form input::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+
+.forms-section form input:-ms-input-placeholder {
+  color: #d9d9d9;
+}
+
+.forms-section form input::-ms-input-placeholder {
+  color: #d9d9d9;
+}
+
+.forms-section form input::placeholder {
+  color: #d9d9d9;
+}
+
+.forms-section form input:not(:placeholder-shown) {
+  color: #b105b4;
+  border: #b105b4 1px solid;
+}
+
+.forms-section form button {
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #b105b4;
+  color: white;
+  border: none;
+  font-size: small;
+  -webkit-transition: letter-spacing 0.3s ease;
+  transition: letter-spacing 0.3s ease;
+}
+
+.forms-section form button:hover {
+  letter-spacing: 2px;
+  -webkit-transition: letter-spacing 0.3s ease;
+  transition: letter-spacing 0.3s ease;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html, body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fcf2ff));
+  background: linear-gradient(#fff, #fcf2ff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  margin: 0 auto;
+  width: 80vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .icon-drop-down {
+  width: 1rem;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-animation: bounce-arrow 0.7s ease-in 0s infinite alternate;
+          animation: bounce-arrow 0.7s ease-in 0s infinite alternate;
+}
+
+@-webkit-keyframes bounce-arrow {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+
+@keyframes bounce-arrow {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

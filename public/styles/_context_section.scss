@@ -1,0 +1,48 @@
+.context-introdution{
+    padding: 20px 0px;
+    width: 40%;
+    h2{
+        font-size: xx-large;
+        color: $title-gray;
+
+        .letters-purple{
+            color: $brand-purple;
+        }
+    }
+    p{
+        font-size: small;
+        color:$subtitle-gray;
+        margin-bottom: 20px;
+    }
+    .btn-outline{
+        position: relative;
+        font-size:small;
+        padding: 10px 20px;
+         border-radius: 20px;
+        border: $brand-purple solid 1px;
+        color: $brand-purple;
+        
+    
+        &:hover{
+           
+    
+             
+             object{
+                position: relative;
+                animation: arrow 0.3s ease 0s infinite alternate
+            }
+        }
+        
+    }
+    
+}
+
+@keyframes arrow{
+    0%{
+        left: 0px;
+
+    }
+    100%{
+        left: 10px;
+    }
+}
