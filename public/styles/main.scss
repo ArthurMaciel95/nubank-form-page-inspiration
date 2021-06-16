@@ -3,6 +3,7 @@
 @import '_context_section.scss';
 @import '_forms_section.scss';
 
+
 *{
     padding: 0px;
     margin: 0px;
@@ -51,3 +52,9 @@ html,body{
 }
 
 
+@media screen and(max-width:820px){
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+}

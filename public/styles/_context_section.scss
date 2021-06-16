@@ -1,6 +1,7 @@
 .context-introdution{
     padding: 20px 0px;
     width: 40%;
+    min-width:325px ;
     h2{
         font-size: xx-large;
         color: $title-gray;
@@ -44,5 +45,13 @@
     }
     100%{
         left: 10px;
+    }
+}
+
+
+@media screen and (max-width:820px){
+    .context-introdution{
+        width: 80vw;
+        min-width: auto;
     }
 }

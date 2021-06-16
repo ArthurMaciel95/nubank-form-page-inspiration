@@ -68,9 +68,16 @@ header nav .btn-area li .btn-outline:hover {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+@media screen and (max-width: 820px) {
+  header nav .menu {
+    display: none;
+  }
+}
+
 .context-introdution {
   padding: 20px 0px;
   width: 40%;
+  min-width: 325px;
 }
 
 .context-introdution h2 {
@@ -121,9 +128,17 @@ header nav .btn-area li .btn-outline:hover {
   }
 }
 
+@media screen and (max-width: 820px) {
+  .context-introdution {
+    width: 80vw;
+    min-width: auto;
+  }
+}
+
 .forms-section {
   padding: 20px 0px;
   width: 50%;
+  min-width: 300px;
 }
 
 .forms-section form {
@@ -221,6 +236,16 @@ header nav .btn-area li .btn-outline:hover {
   transition: letter-spacing 0.3s ease;
 }
 
+@media screen and (max-width: 820px) {
+  .forms-section {
+    width: 100%;
+  }
+  .forms-section form {
+    width: auto;
+    min-width: auto;
+  }
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -284,6 +309,16 @@ html, body {
   }
   to {
     bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
