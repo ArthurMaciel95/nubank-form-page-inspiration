@@ -80,9 +80,9 @@ header nav .btn-area li .btn-outline:hover {
   }
   header nav .menu.open {
     top: 100px;
+    left: 0px;
     width: 100vw;
     margin: 0 auto;
-    height: 70vh;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: center;
@@ -118,7 +118,7 @@ header nav .btn-area li .btn-outline:hover {
   }
   header nav .menu.open li a {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   header nav .menu.open li a.active {
     font-weight: 400;

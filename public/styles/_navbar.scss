@@ -83,9 +83,10 @@ header{
                 transition: opacity 0.2s ease;
                 &.open{
                     top: 100px;
+                    left: 0px;
                     width: 100vw;
                     margin: 0 auto;
-                    height: 70vh;
+                   
                     justify-content: space-around;
                     align-items: center;
                     position: fixed;
@@ -104,7 +105,7 @@ header{
                         justify-content: center;
                         a{
                             color: white;
-                            font-size: 2rem;
+                            font-size: 1.5rem;
 
                             &.active{
                                 
